@@ -1,0 +1,687 @@
+{
+    "intents": [
+      {
+        "tag": "show",
+        "patterns": [
+          "about show",
+          "shows",
+          "How are shows"
+        ],
+        "responses": [
+          {
+            "text": "Bonyeza hapa",
+            "url": "https://www.examplehere.com"
+          }
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, welcome at MUST Assistance, please let me know if you need any assistance.",
+          "Hello, I'm fine, welcome at MUST Assistance, what can I do for you?",
+          "Hi there, welcome at MUST Assistance, what can I do for you?",
+          "Hi there, welcome at MUST Assistance, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "bye", "bye bye", "see you", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Okay, Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Okay", "Ok","okay", "ok", "Thank you", "Thank you very much", "That's helpful", "Thanks a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "bot_challenge",
+        "patterns": [
+        "are you a bot?",
+        "are you a human?",
+        "am I talking to a bot?",
+        "am I talking to a human?",
+        "who are you?",
+        "what is your name?",
+        "what are you?"
+        ],
+        "responses": [
+        "I am a MUSTbot, powered by MUST Assistance Centre to help you about admission processes at MUST anytime."
+        ]
+        },
+        {
+          "tag": "application",
+          "patterns": [
+            "How to apply",
+            "admission process",
+            "application process",
+            "How to apply at MUST",
+            "How to apply at RUKWA campus",
+            "How to apply at main campus",
+            "will i be able to apply",
+            "link to apply",
+            "application"
+          ],
+          "responses": [
+            "Here are online application system for main campus:[link](https://oas.must.ac.tz/OAS/index.php/login) rukwa campus:[link](https://oas.must.ac.tz/OAS_RUKWA)"
+          ]
+        },  
+      {
+        "tag": "admission",
+        "patterns": [
+          "I need to know about admission process",
+          "admission",
+          "Admission"
+        ],
+        "responses": [
+          "Mbeya University of Science and Technology (MUST) Offers various long term courses at the levels of Certificates, Diploma, Bachelor, Postgraduate Diploma in Technical Education, Masters and Doctor of Philosophy for qualified Tanzanian and Non Tanzanian candidates for admission. You may ask me any question concerning MUST admission. "
+        ]
+      },
+      {
+        "tag": "admission_eligibility",
+        "patterns": [
+        "How can I apply in MUST if I have less than 60% marks?",
+        "what are the eligibility criteria for admission",
+        "eligibility",
+        "criteria",
+        "admission eligibility",
+        "admission criteria",
+        "cut-off points",
+        "minimum entry",
+        "what are the selection criteria"
+        ],
+        "responses": [
+        "Minimum entry and eligibility for any course please follow tcu guide book in the link below:"
+        ]
+        },
+      {
+        "tag": "admission_schedule",
+        "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "admission time",
+        "time for admission",
+        "admission schedule",
+        "When do I get my delivery?"
+        ],
+        "responses": [
+          "From now admission window is open and the closing date for receiving the application is 15th October 2023 for applicants aspiring to join Certificate, Diploma, Bachelor and Postgraduate Programmes."
+        ]
+        },
+      {
+        "tag": "payment_option",
+        "patterns": [
+          "payment option",
+          "option to pay",
+          "how to pay",
+          "when to pay",
+          "payment"
+        ],
+        "responses": [
+          "Payment Options are as shown below Payment Option for certificate and diploma applicant:[link](https://must.ac.tz/portal/uploads/documents/148411191713915731012602520116_16.pdf) Payment Option for bachelor degree applicant:[link](https://must.ac.tz/portal/uploads/documents/177531461302010821119911215184_16.pdf) Payment Option for postgraduate applicant:[link](https://must.ac.tz/portal/uploads/documents/431213141615519627118191801017_16.pdf) "
+        ]
+      },
+      {
+        "tag": "fee_structure",
+        "patterns": [
+        "what is the admission fees?",
+        "fee structure",
+        "what is the fee structure",
+        "what is the tuition fee",
+        "I need information of the tuition fees?", 
+        "how much tuition fees will we have to pay in MUST?", 
+        "What amount is essential for the payment of tuition fees in MUST?", 
+        "How much amount is paid for the tuition fees in MUST? ",
+        "I need information on the amount required to be paid as tuition fees in MUST? ",
+        "What will the semester fees be?",
+        "What are the semester fees? ",
+        "What will my semester fees be? ",
+        "How much will my semester fees be? ",
+        "what will my semester fees be? ",
+        "What is the complete fee structure?",
+        "I need information on the complete fee structure",
+        "I need to know the total fee structure.",
+        "What are details with regards to the total fee structure?",
+        "Is there any information on the complete fee structure?"
+        ],
+        "responses": [
+          "for admission fee is Tsh 10000/= only and will be paid through control number provided in OAS. Also Students pursuing Ordinary Diploma (NTA Level 4-6) program may join the University under either Government sponsorship or private sponsorship Students pursuing Bachelor Degree and Porstgraduate programmes are encouraged to apply for scholarship or loan from the Higher Education Students Loan Board (HESLB) www.heslb.go.tz. Fee structure for Government and privately sponsored students are as shown Tuition fee for certificate and diploma applicant:[link](https://must.ac.tz/portal/uploads/documents/148411191713915731012602520116_16.pdf) Tuition fee for bachelor degree applicant:[link](https://must.ac.tz/portal/uploads/documents/177531461302010821119911215184_16.pdf) Tuition fee for postgraduate applicant:[link](https://must.ac.tz/portal/uploads/documents/431213141615519627118191801017_16.pdf) "
+        ]
+      },
+      {
+        "tag": "short_course",
+        "patterns": [
+          "Short course",
+          "when you provide Short course",
+          "is there any Short course",
+          "do you have Short course",
+          "did MUST provide Short course",
+          "short course time"
+        ],
+        "responses": [
+          "Apart from offering long term courses, Mbeya University of Science and Technology offers short courses in the field of Architecture, Business Management, Civil Engineering, Computer Engineering, Information and Communication Technology (ICT), Mechanical Engineering, Electronics and Telecommunication Engineering and Chinese Language."
+        ]
+      },
+      {
+        "tag": "programmes_offered_for_certificate",
+        "patterns": [
+          "certificate programs offered at MUST",
+          "certificate programmes offered at MUST",
+          "certificate programs at MUST",
+          "certificate programmes at MUST",
+          "certificate programs",
+          "certificate programmes",
+          "Programs offered for certificate ",
+          "certificate course offered at MUST",
+          "certificate course offered at MUST",
+          "certificate course at MUST",
+          "certificate course at MUST",
+          "certificate course",
+          "certificate course",
+          "course offered for certificate "
+        ],
+        "responses": [
+          "Certificate in Business Administration Certificate in Agribusiness with Technology"
+        ]
+      },
+      {
+        "tag": "programmes_offered_for_diploma",
+        "patterns": [
+          "Diploma programs offered at MUST",
+          "Diploma programmes offered at MUST",
+          "Diploma programs at MUST",
+          "Diploma programmes at MUST",
+          "Diploma programs",
+          "Diploma programmes",
+          "Programs offered for Diploma ",
+          "Ordinary Diploma programs offered at MUST",
+          "Ordinary Diploma programmes offered at MUST",
+          "Ordinary Diploma programs at MUST",
+          "Ordinary Diploma programmes at MUST",
+          "Ordinary Diploma programs",
+          "Ordinary Diploma programmes",
+          "Programs offered for Ordinary Diploma ",
+          "Diploma Course offered at MUST",
+          "Diploma Course offered at MUST",
+          "Diploma Course at MUST",
+          "Diploma Course at MUST",
+          "Diploma Course",
+          "Diploma Course",
+          "Course offered for Diploma ",
+          "Ordinary Diploma Course offered at MUST",
+          "Ordinary Diploma Course offered at MUST",
+          "Ordinary Diploma Course at MUST",
+          "Ordinary Diploma Course at MUST",
+          "Ordinary Diploma Course",
+          "Ordinary Diploma Course",
+          "Course offered for Ordinary Diploma "
+        ],
+        "responses": [
+             "• Diploma in Business Administration • Diploma in Agribusiness with Technology • Diploma of Business Administration in Marketing and Entrepreneurship • Diploma of Business Administration in Accounting and Finance • Diploma in Architecture • Diploma in Biomedical Equipment Engineering • Diploma in Civil Engineering • Diploma in Computer Engineering • Diploma in Computer Science • Diploma in Electrical and Electronic Engineering • Diploma in Electronic and Telecommunication Engineering • Diploma in Food science and Technology • Diploma in Highway Engineering • Diploma in Information and Communication Technology (ICT) • Diploma in Laboratory Science and Technology • Diploma in Mechanical Engineering • Diploma in Mechatronics Engineering • Diploma in Mining Engineering • Diploma in Mechanical Engineering with Industrial Safety and Occupational Health • Diploma of Technical Education in Civil Engineering • Diploma of Technical Education in Electrical and Electronics Engineering • Diploma of Technical Education in Architectural Technology • Diploma of Technical Education in Mechanical Engineering • Diploma in Automotive and Autoelectrical Engineering • Diploma in Business Computing"
+        ]
+      },
+      {
+        "tag": "programmes_offered_for_bachelor_degree",
+        "patterns": [
+          "Bachelor programs offered at MUST",
+          "Bachelor programmes offered at MUST",
+          "Bachelor programs at MUST",
+          "Bachelor programmes at MUST",
+          "Bachelor programs",
+          "Bachelor programmes",
+          "Programs offered for Bachelor ",
+          "Degree programs offered at MUST",
+          "Degree programmes offered at MUST",
+          "Degree programs at MUST",
+          "Degree programmes at MUST",
+          "Degree programs",
+          "Degree programmes",
+          "Programs offered for Degree ",
+          "Bachelor Degree programs offered at MUST",
+          "Bachelor Degree programmes offered at MUST",
+          "Bachelor Degree programs at MUST",
+          "Bachelor Degree programmes at MUST",
+          "Bachelor Degree programs",
+          "Bachelor Degree programmes",
+          "Programs offered for Bachelor Degree ",
+          "Bachelor course offered at MUST",
+          "Bachelor course offered at MUST",
+          "Bachelor course at MUST",
+          "Bachelor course at MUST",
+          "Bachelor course",
+          "Bachelor course",
+          "course offered for Bachelor ",
+          "Degree course offered at MUST",
+          "Degree course offered at MUST",
+          "Degree course at MUST",
+          "Degree course at MUST",
+          "Degree course",
+          "Degree course",
+          "course offered for Degree ",
+          "Bachelor Degree course offered at MUST",
+          "Bachelor Degree course offered at MUST",
+          "Bachelor Degree course at MUST",
+          "Bachelor Degree course at MUST",
+          "Bachelor Degree course",
+          "Bachelor Degree course",
+          "course offered for Bachelor Degree "
+        ],
+        "responses": [
+            "• Bachelor of Business Administration with the following specializations • Bachelor of Business Administration (Accounting and Finance) • Bachelor of Business Administration (Procurement and Supply Chain Management) • Bachelor of Business Administration (Marketing and Entrepreneurship) • Bachelor of Business Administration (Human Resource Management) • Bachelor of Technology in Architecture • Bachelor of Civil Engineering • Bachelor of Electrical and Electronics Engineering • Bachelor of Mechanical Engineering • Bachelor of Computer Engineering • Bachelor of Laboratory Sciences and Technology • Bachelor of Science with Education in the following Combinations • Bachelor of Science with Education (Chemistry/Biology) • Bachelor of Science with Education (Chemistry/Mathematics) • Bachelor of Science with Education (Chemistry/ Physics) • Bachelor of Science with Education (Physics/ Mathematics) • Bachelor of Engineering in Telecommunication Systems • Bachelor of Computer Science • Bachelor of Science in Information and Communication Technology • Bachelor of Technical Education in Electrical and Electronics Engineering • Bachelor of Technical Education in Mechanical Engineering • Bachelor of Technical Education in Civil Engineering • Bachelor of Technical Education in Architectural Technology • Bachelor of Technology in Landscape Architecture • Bachelor of Engineering in Data Science • Bachelor of Science in Natural Resource Conservation • Bachelor of Food Science and Technology"
+       ]
+    },
+    {
+        "tag": "programmes_offered_for_postgraduate",
+        "patterns": [
+          "postgraduate programs offered at MUST",
+          "postgraduate programmes offered at MUST",
+          "postgraduate programs at MUST",
+          "postgraduate programmes at MUST",
+          "postgraduate programs",
+          "postgraduate programmes",
+          "Masters programs offered at MUST",
+          "Masters programmes offered at MUST",
+          "Masters programs at MUST",
+          "Masters programmes at MUST",
+          "Masters programs",
+          "Masters programmes",
+          "Programs offered for Masters ",
+          "Programs offered for postgraduate ",
+          "postgraduate course offered at MUST",
+          "postgraduate course offered at MUST",
+          "postgraduate course at MUST",
+          "postgraduate course at MUST",
+          "postgraduate course",
+          "postgraduate course",
+          "Masters course offered at MUST",
+          "Masters course offered at MUST",
+          "Masters course at MUST",
+          "Masters course at MUST",
+          "Masters course",
+          "Masters course",
+          "course offered for Masters ",
+          "course offered for postgraduate ",
+          "PhD programs offered at MUST",
+          "PhD programmes offered at MUST",
+          "PhD programs at MUST",
+          "PhD programmes at MUST",
+          "PhD programs",
+          "PhD programmes",
+          "PhD programs offered at MUST",
+          "PhD programmes offered at MUST",
+          "PhD programs at MUST",
+          "PhD programmes at MUST",
+          "PhD programs",
+          "PhD programmes",
+          "programs offered for PhD ",
+          "programmes offered for PhD ",
+          "PhD course offered at MUST",
+          "PhD course offered at MUST",
+          "PhD course at MUST",
+          "PhD course at MUST",
+          "PhD course",
+          "PhD course",
+          "PhD course offered at MUST",
+          "PhD course offered at MUST",
+          "PhD course at MUST",
+          "PhD course at MUST",
+          "PhD course",
+          "PhD course",
+          "course offered for PhD ",
+          "course offered for PhD ",
+          "Doctor of Philosophy programs offered at MUST",
+          "Doctor of Philosophy programmes offered at MUST",
+          "Doctor of Philosophy programs at MUST",
+          "Doctor of Philosophy programmes at MUST",
+          "Doctor of Philosophy programs",
+          "Doctor of Philosophy programmes",
+          "Doctor of Philosophy programs offered at MUST",
+          "Doctor of Philosophy programmes offered at MUST",
+          "Doctor of Philosophy programs at MUST",
+          "Doctor of Philosophy programmes at MUST",
+          "Doctor of Philosophy programs",
+          "Doctor of Philosophy programmes",
+          "programs offered for Doctor of Philosophy ",
+          "programmes offered for Doctor of Philosophy ",
+          "Doctor of Philosophy course offered at MUST",
+          "Doctor of Philosophy course offered at MUST",
+          "Doctor of Philosophy course at MUST",
+          "Doctor of Philosophy course at MUST",
+          "Doctor of Philosophy course",
+          "Doctor of Philosophy course",
+          "Doctor of Philosophy course offered at MUST",
+          "Doctor of Philosophy course offered at MUST",
+          "Doctor of Philosophy course at MUST",
+          "Doctor of Philosophy course at MUST",
+          "Doctor of Philosophy course",
+          "Doctor of Philosophy course",
+          "course offered for Doctor of Philosophy ",
+          "course offered for Doctor of Philosophy "
+          
+        ],
+        "responses": [
+            "• Postgraduate Diploma in Technical Education ( By Course Work) • Master of Science in Civil Engineering (By Thesis) • Master of Engineering in Renewable Energy (By Course Work) • Master of Science in Energy Engineering (By Course Work) • Master of Science in Information Technology (By Course Work) • Master of Engineering in Clean Energy Technology (By Course Work) • Doctor of Philosophy in Civil Engineering (By Thesis) • Doctor of Philosophy in Information Science and Engineering (By Thesis) • Doctor of Philosophy in Mechanical Engineering (By Thesis)"
+       ]
+      },
+      {
+        "tag": "vice_chancellor_message",
+        "patterns": [
+          "about vice chancellor",
+          "vice chancellor",
+          "university message",
+          "about vice",
+          "about vice chancellor message",
+          "message from vice chancellor",
+          "vice chancellor message"
+        ],
+        "responses": [
+          "Welcome to Mbeya University of Science and Technology (MUST), the home to academic enthusiasts and agents of change in innovation, science and technology. On behalf of the University Management, I am delighted to welcome you all to the new academic year 2022/2023. MUST has a long history of excellence in academics. The University was established in 2012 as a result of a transformation of the previous Mbeya Technical College, which was founded in 1986, to Mbeya Institute of Science and Technology in 2005, and then to Mbeya University of Science and Technology. This year, the University marks its 10th year of service to the public. Since its inception, MUST has continued to be at the forefront in advocating its primary mission of offering high-quality education, research and consultancy services. Within that short span of its existence, I am very grateful for how far we have come in contributing to the University's success. MUST has maintained a strong performance in terms of student enrolment for the past five years, with 2,591 students registered during the 2011/2012 year compared to 8,398 students enrolled in 2021/2022. As we celebrate these achievements, I would also like to put on record that, the University is continuing to implement a major project known as the Higher Education for Economic Transformation (HEET) Project, thanks to the support from the Government and World Bank for coming up with this Project. The implementation of the HEET project will undoubtedly transform the academic landscape at the University and enable MUST to operate more flexibly and resiliently in the long term. To our students, we are delighted that you have chosen to become a part of this University. On behalf of the University Management, I wish you the best of luck in your educational endeavors, and I look forward to collaborating with you as you seize the opportunities MUST provides to achieve your aspirations and dreams. This website provides our stakeholders with helpful resources to learn more about MUST, programmes offered, student and staff matters, ongoing projects, current events and other key information."
+        ]
+      },
+      {
+        "tag": "MUST",
+        "patterns": [
+        "why Mbeya University of Science and Technology?",
+        "why MUST?",
+        "is Mbeya University of Science and Technology number 1 university?",
+        "why should I choose Mbeya University of Science and Technology?",
+        "why MUST is good for me?",
+        "why should i apply at Mbeya University of Science and Technology?",
+        "why Mbeya University of Science and Technology?"
+        ],
+        "responses": [
+        "Mbeya University of Science and Technology (MUST) is a result the transformation of the Mbeya Institute of Science and Technology (MIST) through the Universities Act No.7 (2005) and Mbeya University of Science and Technology Charter, 2013. The Universities Act requires universities to draft charters and have them approved as a condition for providing university education. In compliance with the requirements of the university Act, Mbeya University of Science and Technology has been established under Part II, Article 3(1) of the Mbeya University of Science and Technology Charter (2013) In providing direction to influence its operations towards the desired future"
+        ]
+        },
+      {
+        "tag": "university_background",
+        "patterns": [
+          "university history",
+          "university background history",
+          "university historical background",
+          "historical background",
+          "history",
+          "background history",
+          "background",
+          "university mission",
+          "university vision",
+          "university background"
+        ],
+        "responses": [
+          "Mbeya University of Science and Technology (MUST) is a result the transformation of the Mbeya Institute of Science and Technology (MIST) through the Universities Act No.7 (2005) and Mbeya University of Science and Technology Charter, 2013. The Universities Act requires universities to draft charters and have them approved as a condition for providing university education. In compliance with the requirements of the university Act, Mbeya University of Science and Technology has been established under Part II, Article 3(1) of the Mbeya University of Science and Technology Charter (2013) In providing direction to influence its operations towards the desired future; MUST is guided by the following vision, mission, and core values. VISION To become the leading center of excellence for knowledge, skills and applied education in science and technology. MISSION To develop academically, technology, and socially competent students, staff, and other stakeholders who will be responsible to the broader needs and challenges of the society. CORE VALUES In undertaking its roles and functions, MUST will uphold the following core values 1. Leadership in Innovation and Technology - The University is committed to advancing science and technology as an essential part of our cultural heritage. High-quality, state-of-the-art programmes and the embracing of future technologies are highly valued. 2. Cultural of Excellence - This means striving to do things better, setting challenging goals, and continuously improving and innovating to deliver the best possible outcomes. 3. Diversity and Equal Opportunities for All - We believe in ethical and scholarly questioning in an environment that respects the rights of all, to freely pursue knowledge. 4. Partnerships - The Univesity will work very closely with its stakeholders who include; students and staff, industries, Government institutions, NGO's Civil Society Groups, service providers, development partners, and other learning institutions, both within and outside the country. 5. Integrity and Stewardship of Resources - MUST is committed to accountability and responsibility in all actions and adhere to the highest standards of professional ethics and individual integrity"
+        ]
+      },
+      {
+        "tag": "control_number",
+        "patterns": [
+          "control number",
+          "control number issues",
+          "issues about control number",
+          "how to solve control number issues",
+          "how to solve control number problem",
+          "control number problem",
+          "invoice",
+          "invoice issues",
+          "issues about invoice",
+          "how to solve invoiceissues",
+          "how to solve invoice problem",
+          "invoice problem",
+          "invoice generation"
+        ],
+        "responses": [
+          "In case of Technical Problems during the application process, please contact our IT Staff at 0742017406 / 0712164750 / +255 25 2957550. For issues concerning with courses of study and clarification of Entry requirements, please contact our Admission office via +255754651488 / +255762681689/ +255713040344/+255652057433 ."
+        ]
+      },
+      {
+        "tag": "application_deadline",
+        "patterns": [
+          "deadline",
+          "admission application",
+          "admission process end when",
+          "end of admission process",
+          "application deadline"
+        ],
+        "responses": [
+            "Applying to various Programmes at Mbeya University of Science and Technology (MUST) for the Academic Year 2023/2024 All applicants for Certificate, Diploma, Bachelor and Postgraduate Programmes should apply Online through the University website Link [link](https://oas.must.ac.tz) All applicants for Certificate, Diploma and Bachelor wishing to apply for Admission at Mbeya University of Science and Technology (MUST) are required to pay a non-refundable application fee of 10,000/= WHILE for Postgraduate Programmes are required to pay a non-refundable application fee of 50,000/= through TIGO PESA, M-PESA, AIRTEL MONEY OR through National Microfinance Bank (NMB) OR Tanzania Postal Bank (TPB PLC) after obtaining Control Number from Online Application System (OAS). Enquiries and Address: Vice Chancellor P.O. Box 131, Mbeya, Tanzania Tel:      +255 (0)252562033 Mobile:   +255754651488/+255652057433 Fax:      +255 (0)25 2502302 Email:    dvcarc@must.ac.tz or admission@must.ac.tz Website:  [link](www.must.ac.tz) NOTE: The names of successful applicants will be published through Government Newspaper and University website:- www.must.ac.tz The closing date for receiving the application is 15th October 2023 for applicants aspiring to join Certificate, Diploma, Bachelor and Postgraduate Programmes."
+        ]
+      },
+      {
+        "tag": "university_location",
+        "patterns": [
+          "location",
+          "where is MUST",
+          "where is MUST located",
+          "give me location to MUST",
+          "University location"
+        ],
+        "responses": [
+          "Mbeya University of Science and Technology (MUST) is located at Mbeya Region in Tanzania P.O. Box 131 Iyunga Mbeya Tanzania. For more information about MUST location please search in google map."
+        ]
+      },
+      {
+        "tag": "delivery_mode",
+        "patterns": [
+          "Delivery mode",
+          "Delivery mode of study",
+          "Delivery mode for study",
+          "time for study",
+          "year for studies",
+          "study Duration",
+          "study time",
+          "mode of study",
+          "studying time"
+        ],
+        "responses": [
+            "Full time program For Certificate and Diploma Student: Course Duration: 1 Academic year for Certificate Programme, 3 Academic years for Diploma in Architecture, Engineering, Sciences and 2 Academic years for Diploma in Business Administration, Diploma of Business Administration in Accounting and  Finance, Diploma of Business Administration in Marketing and Entrepreneurship and Agribusiness with Technology. For Bachelor Degree Student: o For Business Administration, Education, Laboratory Science and Technology, Information and Communication Technology and Computer Science Programmes the duration is Three Years. o For Bachelor in Engineering, Technology in Architecture and Technical Education Programmes the duration of the course is Four Years for both applicants with Form Six qualifications (ACSEE) and Diploma holders (FTC/NTA Level 6) or Equivalent Qualifications"
+        ]
+      },
+      {
+        "tag": "almanac",
+        "patterns": [
+          "MUST almanac",
+          "university almanac",
+          "almanac"
+        ],
+        "responses": [
+          "Please follow this link to get our Almanac easily:[link](https://must.ac.tz/portal/frontend/web/uploads/documents/1171413520010831618121517219961_15.pdf)"
+        ]
+      },
+      {
+        "tag": "prospectus",
+        "patterns": [
+          "MUST Prospectus",
+          "about Prospectus",
+          "postgraduate Prospectus",
+          "undergraduate Prospectus",
+          "how can i get Prospectus",
+          "prospectus"
+        ],
+        "responses": [
+          "Please follow this link to get our prospectus easily; For Undergraduate:[link](https://must.ac.tz/portal/frontend/web/uploads/documents/1917218485156316111271310149200_15.pdf) For Postgraduate:[link](https://must.ac.tz/portal/frontend/web/uploads/documents/7181716130121042520936141181519_15.pdf) 3 Academic years for Diploma in Architecture, Engineering, Sciences and 2 Academic years for Diploma in Business Administration, Diploma of Business Administration in Accounting and  Finance, Diploma of Business Administration in Marketing and Entrepreneurship and Agribusiness with Technology. For Bachelor Degree Student: o For Business Administration, Education, Laboratory Science and Technology, Information and Communication Technology and Computer Science Programmes the duration is Three Years. o For Bachelor in Engineering, Technology in Architecture and Technical Education Programmes the duration of the course is Four Years for both applicants with Form Six qualifications (ACSEE) and Diploma holders (FTC/NTA Level 6) or Equivalent Qualifications"
+        ]
+      },
+      {
+        "tag": "medical_insurance",
+        "patterns": [
+          "medical care",
+          "medical treatment",
+          "medical insurance",
+          "NHIF card",
+          "NHIF",
+          "Hospital",
+          "dispensary",
+          "health center",
+          "health",
+          "health insurance",
+          "insurance",
+          "medical"
+        ],
+        "responses": [
+          "All students are eligible to medical care to all health service centers and hospitals which are accredited by the National Health Insurance Fund (NHIF) upon presentation of NHIF cards. The University has a dispensary where students can access health services. The services offered include medical consultation, laboratory services, wound dispensing, and life skills. The complicated health problems are referred to Mbeya Referral Hospital and Mbeya Zonal Referral Hospital. Any student in need of health problem assistance, may contact the University Dispensary In-Charge through 0767 411 079 at any time."
+        ]
+      },
+      {
+        "tag": "examinations",
+        "patterns": [
+          "examinations",
+          "exams",
+          "examinations mode",
+          "examinations office",
+          "examinations information"
+        ],
+        "responses": [
+          "for any question concerning examinations: The Department of Examinations falls under the Directorate of Undergraduate Studies (DUS). The department coordinates the day to day activities for undergraduate students. The main functions of the Office are not limited to Coordinate all University Examination Matters, Prepares Examinations Timetable, Prepares the Prospectus, Ensures and enforce Undergraduate Examination Regulations, Prepares and releases Class Master Timetable, Organizes all academic events in Academic Almanac, Ensures all regulations and guidelines from TCU for courses in curricula are adhered, Issues the Academic Transcripts and Certificates. Location: MUST Main Campus: Administration Block Room No. 11B (Basement Wing), Working Hours: The office is open in all week days (Monday to Friday; 07:30AM to 03:30PM East Africa Time), Also you can communicate Admission office for further clarifications at +255754651488 / +255762681689/ +255713040344 / +255652057433 ."
+        ]
+      },
+      {
+        "tag": "documents_required_to_conduct_admission",
+        "patterns": [
+          "documents",
+          "documents required to complete admission",
+          "documents for admission",
+          "documents required for admission",
+          "documents required in admission",
+          "documents required"
+        ],
+        "responses": [
+          "your full name, all required certificates and result slips, your secondary index numbers, and other required details if necessary."
+        ]
+      },
+      {
+        "tag": "registration",
+        "patterns": [
+          "registration process",
+          "when registration take place",
+          "registration time",
+          "time for registration",
+          "registration"
+        ],
+        "responses": [
+          "Please complete admission first, then you will be informed"
+        ]
+      },
+      {
+        "tag": "catering",
+        "patterns": [
+          "catering",
+          "about catering services",
+          "meals",
+          "catering services"
+        ],
+        "responses": [
+          "At the University there is a cafeteria used to serve meals to government and private sponsored Ordinary Diploma students who paid the prescribed fees for meal services at the University cafeteria. Other students including undergraduates they get meal services at the MUST Social Club, Baba/Mamalishe sheds and from food vendors around the University with a reasonable price. The MUST Social Club and Baba/Mamalishe sheds are regularly evaluated for food safety and quality standards and control of the prices. However, the University cannot assure you of the food safety, quality and standards of foods served by food vendors around the University."
+        ]
+      },
+      {
+        "tag": "hostel",
+        "patterns": [
+        "is there hostel available",
+        "hostel for girls",
+        "hostel facility",
+        "campus hostel",
+        "hostel",
+        "in_campus hostel"
+        ],
+        "responses": [
+        "Yes! campus hostel is available at MUST. One of the most important welfares to the students is accommodation services. The University has established Students Accommodation Bureau to manage accommodation facilities and its maintenance. The bureau is manned by the Bureau Manager and monitored by the Bureau Board. However, the University has limited number of bed spaces to accommodate all students on-campus. The situation necessitates therefore that students who do not get on-campus accommodation are advised to look for off campus accommodation in residential areas near the University or elsewhere. There a number of private houses and few student hostels near the University to cater for both female and male students. Fees for on-campus accommodation are set by the University and reviewed from time to time as the need be while for off-campus accommodation is a negotiable between the owner of the house/hostel and the student. Room Allocation: Students are allocated room space after applied for on-campus accommodation in consideration of criteria for allocating accommodation to students available in the Students Accommodation Policy 2016. The rooms in the University hostel blocks will be furnished with beds, mattress, and few tables and chairs in some rooms. You are not allowed to remove fittings in the rooms and you are responsible for the proper care of all the property. Any damage or loss must be reported immediately to the Warden/Bureau Manager. The MUST Students By- Laws 2014 and Students Accommodation guidelines 2017 stipulates all accommodation disciplinary offences. Harmonious Living: You will be expected to live peacefully with one another in their allocated rooms. If at all you are found to be misbehaving towards your roommate you shall be evicted from the room. Misbehaving includes but is not limited to being drunk, smoking and/or drug abuse inside the room, bringing unauthorized guests into the room, and immoral acts in the presence of roommates in the room and/or within the hostel block premises. Some students find it challenging to live in harmony with a new roommate(s). In case of serious interpersonal conflicts you should report to the warden/ janitor and Bureau Manager so that a resolution may be found. Safety and Security: The University is generally a safe environment; however you are advised not to entertain strangers in your rooms. In case of theft or suspicious activity you should report to the warden/security office located at the reception."
+        ]
+        },
+      {
+        "tag": "sponsorship",
+        "patterns": [
+          "sponsorship",
+          "Can anyone guide me about sponsorship...?",
+          "I need information about the sponsorship procedure.",
+          "I need guidance through the procedure of sponsorship application?",
+          "I need guidance for the application of sponsorship.", 
+          "What is the process of sponsorship application?", 
+          "I need information of the procedure of application of sponsorship?",
+          "what is the process of sponsorship?",
+          "how can I get sponsorship?",
+          "what is the process of sponsorship?",
+          "how can I get financial aid?",
+          "what is the process of need based sponsorship",
+          "what about sponsorship",
+          "how can I get sponsorship",
+          "how can I apply for sponsorship",
+          "how can I apply for sponsorship",
+          "where can I apply for scholarship?"
+        ],
+        "responses": [
+          "Students pursuing Bachelor Degree and Porstgraduate programmes are encouraged to apply for scholarship or loan from the Higher Education Students Loan Board (HESLB) [link](www.heslb.go.tz). "
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+        "how can i get scholarship?",
+        "criteria for scholarship",
+        "scholarship",
+        "financial aid",
+        "Can anyone guide me about scholarship...?",
+        "I need information about the scholarship procedure.",
+        "I need guidance through the procedure of scholarship application?",
+        "I need guidance for the application of scholarship.", 
+        "What is the process of scholarship application?", 
+        "I need information of the procedure of application of scholarship?",
+        "what is the process of scholarship?",
+        "how can I get scholarship?",
+        "what is the process of financial aid?",
+        "how can I get financial aid?",
+        "what is the process of need based scholarship",
+        "what about study loan",
+        "how can I get study loan",
+        "how can I apply for study loan",
+        "how can I apply for financial aid",
+        "where can I apply for financial aid?",
+        "where can I apply for scholarship?"
+        ],
+        "responses": [
+        "NO, Scholarships/Financial Aid/Study loan are not available at MUST. Students pursuing Bachelor Degree and Porstgraduate programmes are encouraged to apply for scholarship or loan from the Higher Education Students Loan Board (HESLB) [link](www.heslb.go.tz). "
+        ]
+        },
+      {
+        "tag": "contact",
+        "patterns": [
+        "how to contact MUST",
+        "contact details",
+        "how to connect with MUST",
+        "how to reach MUST",
+        "MUST contact number",
+        "MUST contact ",
+        "contacts "
+        ],
+        "responses": [
+            "Applying to various Programmes at Mbeya University of Science and Technology (MUST) for the Academic Year 2023/2024 All applicants for Certificate, Diploma, Bachelor and Postgraduate Programmes should apply Online through the University website Link  [link](https://oas.must.ac.tz) All applicants for Certificate, Diploma and Bachelor wishing to apply for Admission at Mbeya University of Science and Technology (MUST) are required to pay a non-refundable application fee of 10,000/= WHILE for Postgraduate Programmes are required to pay a non-refundable application fee of 50,000/= through TIGO PESA, M-PESA, AIRTEL MONEY OR through National Microfinance Bank (NMB) OR Tanzania Postal Bank (TPB PLC) after obtaining Control Number from Online Application System (OAS). Enquiries and Address: Vice Chancellor P.O. Box 131, Mbeya, Tanzania Tel:      +255 (0)252562033 Mobile:   +255754651488/+255652057433 Fax: +255 (0)25 2502302 Email: dvcarc@must.ac.tz or admission@must.ac.tz Website:  www.must.ac.tz For admission +255 (0)252562033 +255 767 349 139 / +255 655 349 139 P.O.Box 131, Mbeya [link](admission@must.ac.tz)"
+        ]
+        },
+      {
+        "tag": "joining_instruction",
+        "patterns": [
+          "joining instructions",
+          "how to apply for joining instructions",
+          "how to get joining instructions",
+          "i need joining instructions",
+          "about joining instructions",
+          "joinning instruction"
+        ],
+        
+        "responses": [
+                "To get joinning instructions please follow links below: Joinning instruction for diploma (government sponsor):[link](https://must.ac.tz/portal/frontend/web/uploads/documents/916372861901215451412017131118_15.pdf) Joinning instruction for diploma (private sponsor):[link](https://must.ac.tz/portal/frontend/web/uploads/documents/2013182312159174191750611141016_15.pdf) Joinning instruction for bachelor degree:[link](https://must.ac.tz/portal/frontend/web/uploads/documents/101484251213911151771931206180_15.pdf) Joinning instruction for Postgraduate:[link](https://must.ac.tz/portal/frontend/web/uploads/documents/614121520171184231870131951019_15.pdf)"
+        ]
+      }
+      
+    ]
+  }
+  
